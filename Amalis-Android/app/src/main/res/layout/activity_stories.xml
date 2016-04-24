@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false"
+    android:background="#033a64">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="#3d7de5">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/story_1"
+                android:id="@+id/story_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text1"
+                android:id="@+id/story_2"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:background="#eef139" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/story_2"
+                android:id="@+id/story_3"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                android:padding="10dp" />
+            <TextView
+                android:id="@+id/story_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/text2"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:background="#dd14e4" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/story_3"
+                android:id="@+id/story_5"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text3"
+                android:id="@+id/story_6"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:background="#fdfe2f36" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/story_4"
+                android:id="@+id/story_7"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text4"
+                android:id="@+id/story_8"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:background="#1df924" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/story_5"
+                android:id="@+id/story_9"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text5"
+                android:id="@+id/story_10"
+                android:textSize="18sp"
+                android:layout_weight="0.64"
+                android:textColor="#000000"
+                android:padding="10dp"
+                android:background="#f88d0a" />
+
+
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/chang_e_and_hou_yi"
+                android:id="@+id/story_11"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#bc0000"
+                android:gravity="center_horizontal"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/ch_1"
+                android:id="@+id/story_12"
+                android:textSize="18sp"
+                android:layout_weight="0.64"
+                android:textColor="#000000"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/ch_2"
+                android:id="@+id/story_13"
+                android:textSize="18sp"
+                android:layout_weight="0.64"
+                android:textColor="#000000"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/ch_3"
+                android:id="@+id/story_14"
+                android:textSize="18sp"
+                android:layout_weight="0.64"
+                android:textColor="#000000"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/ch_4"
+                android:id="@+id/story_15"
+                android:textSize="18sp"
+                android:layout_weight="0.64"
+                android:textColor="#000000"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/but"
+                android:id="@+id/But"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+

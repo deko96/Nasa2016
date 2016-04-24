@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false">
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:background="#3d7de5">
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/apollo_11"
+                android:id="@+id/mission_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:textColor="#fff235" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Apollo11_1"
+                android:id="@+id/mission_2"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mission_3"
+                android:src="@drawable/apollo11"
+                android:adjustViewBounds="true"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Apollo11_2"
+                android:id="@+id/mission_4"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Apollo11_3"
+                android:id="@+id/mission_0"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Apollo11_4"
+                android:id="@+id/mission_5"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Apollo11_5"
+                android:id="@+id/mission_6"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/Apollo11_6"
+                android:id="@+id/mission_7"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/apollo_12"
+                android:id="@+id/mission_8"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:padding="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#fff235" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mission_9"
+                android:src="@drawable/apollo12"
+                android:adjustViewBounds="true"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/apollo_14"
+                android:id="@+id/mission_10"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:padding="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#fff235" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/apollo_14_1"
+                android:id="@+id/mission_11"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/apollo_14_2"
+                android:id="@+id/mission_12"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/apollo_14_3"
+                android:id="@+id/mission_13"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/apollo_14_4"
+                android:id="@+id/mission_14"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/apollo_14_5"
+                android:id="@+id/fun_facts3"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/apollo_14_6"
+                android:id="@+id/mission_15"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/apollo_17"
+                android:id="@+id/mission_16"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:padding="10dp"
+                android:gravity="center_horizontal"
+                android:textColor="#fff235" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/apollo_17_1"
+                android:id="@+id/mission_17"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/apollo_17_2"
+                android:id="@+id/mission_18"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mission_19"
+                android:src="@drawable/last1"
+                android:adjustViewBounds="true"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/apollo_17_3"
+                android:id="@+id/mission_20"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mission_21"
+                android:src="@drawable/last2"
+                android:adjustViewBounds="true"
+                android:padding="10dp" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/apollo_17_4"
+                android:id="@+id/mission_22"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/apollo_17_5"
+                android:id="@+id/mission_23"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/but"
+                android:id="@+id/But"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

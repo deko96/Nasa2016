@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="#3d7de5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/fun_facts_s1"
+                android:id="@+id/fun_facts_1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="70dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fun_facts_s2"
+                android:id="@+id/fun_facts_2"
+                android:padding="10dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fun_facts_s3"
+                android:id="@+id/fun_facts_3"
+                android:padding="10dp"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fun_facts_4"
+                android:src="@drawable/untitled1"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fun_facts_s4"
+                android:id="@+id/fun_facts_5"
+                android:padding="10dp"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fun_facts_6"
+                android:src="@drawable/untitled2"
+                android:adjustViewBounds="true"
+                android:padding="10dp"/>
+
+            <ImageView
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:id="@+id/fun_facts_7"
+                android:src="@drawable/megju"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="So far apart!"
+                android:id="@+id/fun_facts_8"
+                android:paddingLeft="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fun_facts_s5"
+                android:id="@+id/fun_facts_9"
+                android:padding="10dp"
+                android:textColor="#000000"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fun_facts_10"
+                android:src="@drawable/untitled3"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fun_facts_11"
+                android:src="@drawable/untitled4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fun_facts_12"
+                android:src="@drawable/untitled5"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fun_facts_13"
+                android:src="@drawable/untitled6"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fun_facts_14"
+                android:src="@drawable/untitled7"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fun_facts_15"
+                android:src="@drawable/untitled8"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/but"
+                android:id="@+id/But"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
